@@ -36,19 +36,28 @@
 <body>
     <!-- SVG overlay for custom clickable areas -->
     <svg class="svg-overlay" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
-        <!-- Author area - covering the person on the left -->
-        <polygon points="0,300 560,240 640,300 720,360 720,420 800,540 832,660 800,780 768,900 720,1020 640,1080 560,1140 400,1200 0,1200" 
-                 fill="rgba(255,0,0,0.2)" 
-                 onclick="location.href='author.html'"
-                 onmouseover="this.style.fill='rgba(255,0,0,0.4)'"
-                 onmouseout="this.style.fill='rgba(255,0,0,0.2)'"/>
+        <!-- Author area - smoother outline around the figure -->
+        <polygon points="
+            100,350  200,280  320,260  420,280 
+            480,340  500,420  520,520  510,640 
+            480,740  450,860  420,960  360,1040 
+            280,1100 180,1160  100,1180  0,1180  0,400
+        " 
+            fill="rgba(255,0,0,0.2)" 
+            onclick="location.href='author.html'"
+            onmouseover="this.style.fill='rgba(255,0,0,0.4)'"
+            onmouseout="this.style.fill='rgba(255,0,0,0.2)'"/>
         
-        <!-- Books/surrounding area - covering bookshelves and background -->
-        <polygon points="560,240 1600,0 1600,1200 400,1200 560,1140 640,1080 720,1020 768,900 800,780 832,660 800,540 720,420 720,360 640,300" 
-                 fill="rgba(0,255,0,0.2)"
-                 onclick="location.href='books.html'"
-                 onmouseover="this.style.fill='rgba(0,255,0,0.4)'"
-                 onmouseout="this.style.fill='rgba(0,255,0,0.2)'"/>
+        <!-- Books/surrounding area -->
+        <polygon points="
+            320,260 1600,0 1600,1200 180,1200 280,1100 360,1040 
+            420,960 450,860 480,740 510,640 520,520 500,420 480,340 420,280
+        " 
+            fill="rgba(0,255,0,0.2)"
+            onclick="location.href='books.html'"
+            onmouseover="this.style.fill='rgba(0,255,0,0.4)'"
+            onmouseout="this.style.fill='rgba(0,255,0,0.2)'"/>
     </svg>
 </body>
+
 </html>
