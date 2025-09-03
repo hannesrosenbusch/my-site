@@ -4,16 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        .books-container {
+            display: flex;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+        
+        .book {
+            flex: 1;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .book img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        
+        .book h2 {
+            margin: 0 0 1rem 0;
+            color: #333;
+        }
+        
+        .book p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .buy-btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .buy-btn:hover {
+            background: #0056b3;
+        }
+        
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .books-container {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Books</h1>
     <nav>
-        <a href="index.html">Home</a> | 
-        <a href="author.html">Author</a>
+        <a href="index.html">Home</a>
     </nav>
-    <ul>
-        <li><a href="book1.html">Book 1</a></li>
-        <li><a href="book2.html">Book 2</a></li>
-    </ul>
+    
+    <div class="books-container">
+        <div class="book">
+            <img src="assets/images/book1.jpg" alt="Book 1 Cover">
+            <h2>The Mystery of Time</h2>
+            <p>A thrilling adventure through the corridors of history, where ancient secrets meet modern mysteries. Follow our protagonist as they uncover hidden truths that could change everything we know about the past.</p>
+            <a href="https://google.com" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="book">
+            <img src="assets/images/book2.jpg" alt="Book 2 Cover">
+            <h2>Beyond the Horizon</h2>
+            <p>An epic tale of discovery and courage that spans continents and generations. A story of love, loss, and the unbreakable bonds that connect us across time and space.</p>
+            <a href="https://google.com" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
 </body>
 </html>
