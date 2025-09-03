@@ -13,14 +13,27 @@
             background-position: center;
             background-repeat: no-repeat;
             min-height: 100vh;
+            position: relative;
+        }
+        
+        .click-area {
+            position: absolute;
+            width: 100%;
+            height: 50%;
+            cursor: pointer;
+        }
+        
+        .books-area {
+            top: 0;
+        }
+        
+        .author-area {
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <nav>
-        <a href="author.html">Author</a> | 
-        <a href="books.html">Books</a>
-    </nav>
+    <div class="click-area books-area" onclick="location.href='books.html'"></div>
+    <div class="click-area author-area" onclick="location.href='author.html'"></div>
 </body>
 </html>
