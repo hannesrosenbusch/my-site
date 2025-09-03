@@ -36,15 +36,6 @@
 <body>
     <!-- SVG overlay for custom clickable areas -->
     <svg class="svg-overlay" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
-        <!-- Author area - tighter fit around figure, shifted left/middle -->
-        <polygon points="
-            280,160  800,160  700,600, 700,1200, 50,1200
-        " 
-            fill="rgba(255,0,0,0.2)" 
-            onclick="location.href='author.html'"
-            onmouseover="this.style.fill='rgba(255,0,0,0.4)'"
-            onmouseout="this.style.fill='rgba(255,0,0,0.2)'"/>
-        
         <!-- Books/surrounding area - now cleanly around figure -->
         <polygon points="
             420,280 1600,0 1600,1200 240,1200 
@@ -55,6 +46,16 @@
             onclick="location.href='books.html'"
             onmouseover="this.style.fill='rgba(0,255,0,0.4)'"
             onmouseout="this.style.fill='rgba(0,255,0,0.2)'"/>
+
+         <!-- Author area - tighter fit around figure, shifted left/middle -->
+        <polygon points="
+            480,260  900,260  900,560, 700, 700, 00,1200, 80,1200
+        " 
+            fill="rgba(255,0,0,0.2)" 
+            onclick="location.href='author.html'"
+            onmouseover="this.style.fill='rgba(255,0,0,0.4)'"
+            onmouseout="this.style.fill='rgba(255,0,0,0.2)'"/>
+        
     </svg>
 </body>
 
