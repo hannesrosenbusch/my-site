@@ -10,7 +10,7 @@
             margin: 0;
             padding: 2rem;
             line-height: 1.6;
-            background-image: url('assets/images/bg.png');
+            background-image: url('assets/images/books.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -27,18 +27,19 @@
         .book {
             flex: 1;
             padding: 1.5rem;
-            border: 1px solid #ddd;
+            border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 8px;
             text-align: center;
-            background-color: white;
+            background-color: rgba(64, 64, 64, 0.85);
+            color: white;
             cursor: pointer;
             transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
         }
         
         .book:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-            border-color: #007bff;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.4);
         }
         
         .book img {
@@ -53,7 +54,7 @@
         
         .book h2 {
             margin: 0 0 1rem 0;
-            color: #333;
+            color: white;
             cursor: pointer;
             transition: color 0.2s;
         }
@@ -64,27 +65,35 @@
         }
         
         .book:hover h2 {
-            color: #007bff;
+            color: white;
         }
         
         .book p {
-            color: #666;
+            color: rgba(255, 255, 255, 0.9);
             margin-bottom: 1.5rem;
         }
         
         nav {
-            text-align: left;
-            margin-bottom: 2rem;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 100;
         }
         
         nav a {
-            color: #007bff;
+            color: #fff;
             text-decoration: none;
-            margin: 0 1rem;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            text-shadow: none;
         }
         
         nav a:hover {
-            text-decoration: underline;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         }
         
         @media (max-width: 768px) {
@@ -103,13 +112,13 @@
         <div class="book" onclick="location.href='book1.html'">
             <img src="assets/images/tempcover.png" alt="Book 1 Cover">
             <h2>Laboratory</h2>
-            <p>In Laboratory, it is the campus of Kleinburg University itself, which narrates the story. For centuries, this neurotic institution has acted as a puppet master, using objects, animals, and selected staff members to maintain its preferred version of campus life. Growing increasingly infatuated with a particular student, Kasimir Schneider, the campus enables the young man's obsession with parapsychology and near-death experiences--with dire consequences. Watching the corpse of its favorite student being carried away, the campus addresses Kasimir's lifeless body one last time, retelling their story from beginning to end, always wondering where things went wrong.</p>
+            <p>A moody campus novella</p>
         </div>
         
         <div class="book" onclick="location.href='book2.html'">
             <img src="assets/images/tempcover.png" alt="Book 2 Cover">
             <h2>Dormitory</h2>
-            <p>After causing her sister's death in a zoo accident, Maya overdoses in her mother's attic. On a far-away campus, a lonely cafeteria employee named Claudio is shot by ruthless scientists. Meeting in the afterlife, our two heros are welcomed by Finn, an angel who forces alledgedly life-changing insights onto his visitors, hoping to wake people from their near-death experiences. Unfortunately, Finn has a very poor understanding of human psychology, solely relying on academic publications to design his reanimation program. As Maya and Claudio's brains run out of oxygen, their experiences become ever-stranger. Can they find something to make their lives worth living?</p>
+            <p>A dramatic afterlife adventure</p>
         </div>
     </div>
 </body>
