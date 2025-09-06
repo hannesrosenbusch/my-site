@@ -61,6 +61,43 @@
             line-height: 1.7;
             text-align: center;
         }
+        
+        button {
+            background: #495057;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            margin: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        button:hover {
+            background: #343a40;
+        }
+        
+        .email-form {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .email-form input[type="email"] {
+            width: 250px;
+            padding: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        .email-form input[type="email"]::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
     </style>
 </head>
 <body>
@@ -70,6 +107,24 @@
     </nav>
     <div class="description-box">
         After causing her sister's death in a zoo accident, Maya overdoses in her mother's attic. On a far-away campus, a lonely cafeteria employee named Claudio is shot by ruthless scientists. Meeting in the afterlife, the unlikely duo is welcomed by Finn, an angel who pushes people towards life-changing insights, hoping to wake them from their near-death experiences. Unfortunately, Finn has a very poor understanding of human psychology, solely relying on academic publications to design his reanimation program. As Maya and Claudio's brains run out of oxygen, their afterlife experiences become ever-stranger and a return to life slips out of reach.
+        
+        <form class="email-form" onsubmit="subscribeEmail(event)">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button type="submit">Alert me about publication</button>
+        </form>
     </div>
+    
+    <script>
+        function subscribeEmail(event) {
+            event.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            if (email && email.includes('@')) {
+                alert('Thank you! You\'ll be notified when "Dormitory" is published.');
+                document.getElementById('emailInput').value = '';
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        }
+    </script>
 </body>
 </html>

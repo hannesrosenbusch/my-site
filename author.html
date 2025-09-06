@@ -39,13 +39,40 @@
         }
         
         button {
-            background: #007bff;
+            background: #495057;
             color: white;
             padding: 0.5rem 1rem;
             border: none;
             border-radius: 4px;
             margin: 0.5rem;
             cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        button:hover {
+            background: #343a40;
+        }
+        
+        .email-form {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .email-form input[type="email"] {
+            width: 250px;
+            padding: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        .email-form input[type="email"]::placeholder {
+            color: rgba(255, 255, 255, 0.7);
         }
         
         nav {
@@ -83,9 +110,23 @@
             Hannes Rosenbusch is a goofy man, always has been.<br>You will find him lurking in the cafés and libraries of Amsterdam, writing obscure books about the afterlife. Or you might spot him in the basement of the local university, obsessing over psychological methods. He says funny things. He lives in his own world. There's no reason to talk to him.
         </p>
 
-        <p>
-            <button>Get emails from this person</button>
-        </p>
+        <form class="email-form" onsubmit="subscribeEmail(event)">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button type="submit">Get emails from this person</button>
+        </form>
     </div>
+    
+    <script>
+        function subscribeEmail(event) {
+            event.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            if (email && email.includes('@')) {
+                alert('Thank you for subscribing! You\'ll receive updates about new content.');
+                document.getElementById('emailInput').value = '';
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        }
+    </script>
 </body>
 </html>
