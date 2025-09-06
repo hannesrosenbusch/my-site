@@ -16,6 +16,12 @@
             background-position: center;
             background-repeat: no-repeat;
             min-height: 100vh;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
         }
         
         .container {
@@ -102,5 +108,11 @@
     <div class="email-link">
         <a href="email-updates.html">Get email updates from this person</a>
     </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
 </html>

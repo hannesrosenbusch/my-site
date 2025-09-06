@@ -17,6 +17,12 @@
             background-repeat: no-repeat;
             min-height: 100vh;
             background-color: #2c2c2c;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
         }
         
         h1 {
@@ -137,5 +143,11 @@
     <div class="email-link">
         <a href="email-updates.html">Alert me about publication</a>
     </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
 </html>

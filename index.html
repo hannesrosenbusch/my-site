@@ -15,6 +15,12 @@
             background-repeat: no-repeat;
             min-height: 100vh;
             position: relative;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+        body.loaded {
+            opacity: 1;
         }
         
         .svg-overlay {
@@ -56,6 +62,12 @@
             onmouseout="this.style.fill='transparent'"/>
         
     </svg>
+    
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
 
 
