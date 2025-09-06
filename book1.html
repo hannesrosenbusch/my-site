@@ -98,6 +98,25 @@
         .email-form input[type="email"]::placeholder {
             color: rgba(255, 255, 255, 0.7);
         }
+        
+        .email-link {
+            margin-top: 1.5rem;
+        }
+        
+        .email-link a {
+            display: inline-block;
+            background: #495057;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        
+        .email-link a:hover {
+            background: #343a40;
+        }
     </style>
 </head>
 <body>
@@ -108,23 +127,9 @@
     <div class="description-box">
         In Laboratory, it is the campus of Kleinburg University itself, which narrates the story. For centuries, this neurotic institution has acted as a puppet master, using objects, animals, and selected staff members to maintain its preferred version of campus life. Growing increasingly infatuated with a particular student, Kasimir Schneider, the campus enables the young man's obsession with parapsychology and near-death experiences--with dire consequences. Watching the corpse of its favorite student being carried away, the campus addresses Kasimir one last time, reminiscing about their time together, always wondering where things went wrong.
         
-        <form class="email-form" onsubmit="subscribeEmail(event)">
-            <input type="email" id="emailInput" placeholder="Enter your email" required>
-            <button type="submit">Alert me about publication</button>
-        </form>
+        <div class="email-link">
+            <a href="email-updates.html">Alert me about publication</a>
+        </div>
     </div>
-    
-    <script>
-        function subscribeEmail(event) {
-            event.preventDefault();
-            const email = document.getElementById('emailInput').value;
-            if (email && email.includes('@')) {
-                alert('Thank you! You\'ll be notified when "Laboratory" is published.');
-                document.getElementById('emailInput').value = '';
-            } else {
-                alert('Please enter a valid email address.');
-            }
-        }
-    </script>
 </body>
 </html>
