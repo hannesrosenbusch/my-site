@@ -1,7 +1,5 @@
----
-NY Times sentiment analyzer
----
 
+<h1> NY Times sentiments </h1>
 Even though this project was a while ago, it marks my first encounter with computational social science, and therefore I still like it. The project showed me how fun computational methods are, and ultimately led me to reject my PhD grant and seek a position involving computational methods.
 
 For the project, I built a simple, python/SQL-based application that lets users input a query term, and that outputs the NY times' sentiments associated with this query.

@@ -1,7 +1,4 @@
----
-The Semantic Scale Network
----
-
+<h1> The semantic scale network </h1>
 
 At the Summer Institute for Computational Social Science, we developed a method to quantify overlap of psychological scales (e.g., scales for happiness vs. scales for well-being).
 

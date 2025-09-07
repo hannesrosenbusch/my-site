@@ -1,6 +1,4 @@
----
-Short story from a writing workshop
----
+<h1> OUtput from short story workshop </h1>
 
 <b>Wedding Crashers: Season 1</b>
 

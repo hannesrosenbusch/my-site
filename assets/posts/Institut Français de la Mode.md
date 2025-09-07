@@ -1,6 +1,4 @@
----
-AI at the intersection of Fashion and Psychology
----
+<h1> My talk at a French fashion institute </h1>
 
 I gave a short talk about the predictability of personality from clothes.
 

@@ -1,6 +1,4 @@
----
-My PhD dissertation
----
+<h1> My PhD project </h1>
 
 The goal of my PhD was to explore cutting-edge methods from the field of data science and utilize them to conduct innovative behavioral research. Throughout this journey, my colleagues and I additionally spent much time on developing software and applications for users in the scientific community.
 

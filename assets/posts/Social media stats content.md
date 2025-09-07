@@ -1,6 +1,4 @@
----
-Stats content on Instagram
----
+<h1> Social media content </h1>
 
 My data science team and I decided to join our marketing team in producing social media content. Naturally, we will concentrate on stats, AI, and research methods. The primary challenge will be to optimize fun, brevity, and accessibility for the public. I think it will be very cool content for the viewers. However, my main aim is that the entire data science team grows their capability to explain difficult things in an optimal way. Teaching is part of learning, so this will be our teaching outlet. Plus, we will hopefully learn how to produce social media content from the marketing team :D
 

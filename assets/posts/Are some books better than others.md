@@ -1,6 +1,4 @@
----
-Are some books better than others?
----
+<h1> Are some books better than others? </h1>
 
 Debating whether a book is "good" or "bad" is a fun pastime, enjoyed by readers and academics alike.
 It is undeniable that readers' attitudes about the same book often differ.

@@ -1,6 +1,4 @@
----
-I am writing a science-fantasy novel
----
+<h1> Progress on my novel </h1>
 
 I have spent the last years working on my debut novel. The expected year of release is 2025. Below is a blurb :)
 

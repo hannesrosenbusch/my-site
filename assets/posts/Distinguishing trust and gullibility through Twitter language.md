@@ -1,6 +1,4 @@
----
-Distinguishing trust and gullibility through Twitter language
----
+<h1> Distinguishing trust and gullibility through Twitter language </h1>
 
 In this project, we combine survey research with text mining on Twitter. In brief, we administered psychological tests to participants measuring their dispositional trust and gullibility. Subsequently, we scraped tweets from the participants' Twitter profiles and correlated their language paaterns with their trust and gullibility scores.
 

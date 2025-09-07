@@ -1,6 +1,4 @@
----
-Extending my teaching in machine learning
----
+<h1> Guest lecture at Princeton </h1>
 
 Recently, my colleagues and I published a paper serving as a hands-on introduction to machine learning for behavioral scientists. In response, Robin Gomilla invited me to share my knowledge in his course on Advanced Statistics. 
 

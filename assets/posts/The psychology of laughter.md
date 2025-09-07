@@ -1,6 +1,5 @@
----
-Why do people laugh?
----
+<h1> Why do people laugh? </h1>
+
 
 <b> Translational abstract:</b>
 <i>"When attempting a joke, you likely ask yourself: “Will the person in front of me laugh?”. At least three factors are at play: the joke (e.g., is it funny?), the listener (e.g., how do they usually respond to humor?), and their interaction (e.g., is there a match between joke content and listener taste?). Here, we assess across a variety of archival and new studies, which factor is the most important when predicting the success of your joke. Results consistently forward that the quality of the joke was the least informative, because humor tastes vary immensely across people. Most important was the match between joke content and listener preferences, but the overall tendency of a person to respond positively was also relatively important. Thus, you should know your audience rather than trying to find the best joke in the world."</i> 

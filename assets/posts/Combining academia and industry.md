@@ -1,6 +1,4 @@
----
-Combining academia and industry
----
+<h1> Combining academia and industry </h1>
 
 After graduating, I felt like I stood at a career cross-roads: academia or industry. I think this feeling is shared among many when finalizing/defending their dissertation. However, during that time I had also heard of people being very happy and prolific in hybrid positions. This observation was purely anecdotal and might be specific to the discipline of data science, but I decided to go for it as well. By now, I have been splitting my time between a social media/market research company and a university position for almost a year. And my current evaluation of a hybrid setup is "great!" ...under certain, lucky conditions.
 

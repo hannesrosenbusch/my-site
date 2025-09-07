@@ -1,8 +1,6 @@
----
-My first Microsoft Office add-in
----
+<h1> Office AI plugin </h1>
 
-I found myself copy-pasting between Office Word and web-based AI tools a lot.
+In my academic writing, I found myself copy-pasting between Office Word and web-based AI tools a lot.
 
 To make writing/editing more convenient, I built a sidepanel add-in for word where I task an AI to make edits/suggestions right in my document.
 

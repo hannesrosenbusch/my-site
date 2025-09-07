@@ -1,8 +1,6 @@
----
-Master thesis on radical group behavior
----
+<h1> Thesis alert </h1>
 
-This was my master's thesis titled 'Testing the transferability of collective action theories to radical action'. 
+My master's thesis titled 'Testing the transferability of collective action theories to radical action'. 
 It was a lot of fun working on it and I am very grateful to my supervisor Prof. Russell Spears.
 
 [get the PDF](assets/blog_images/thesis.pdf)

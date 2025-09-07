@@ -154,7 +154,7 @@
                 const tempDiv = document.createElement('div');
                 tempDiv.innerHTML = html;
                 
-                // Find links that were followed by {:target="_blank"} in the original markdown
+                // Add target="_blank" to all external links
                 const links = tempDiv.querySelectorAll('a[href^="http"]');
                 links.forEach(link => {
                     link.setAttribute('target', '_blank');

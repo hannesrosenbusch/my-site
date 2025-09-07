@@ -1,6 +1,4 @@
----
-What books do I like?
----
+<h1> What types of books do I like? </h1>
 
 Despite keeping track of my own book ratings and writing short reviews for every book that I read (including DNFs), I find it difficult to pinpoint my own literary preferences.
 

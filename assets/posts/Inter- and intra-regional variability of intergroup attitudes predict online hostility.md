@@ -1,6 +1,4 @@
----
-Ideological divisions and regional hostility on Twitter
----
+<h1> Polarization and social media language </h1>
 
 That the USA struggles with ideological polarization, especially regarding the issue of minority treatment, is well-known.
 Psychological research has shown that the average, local attitude towards people of other ethnicities predicts a host of local, well-being related phenomena such as violence and health issues among locals.

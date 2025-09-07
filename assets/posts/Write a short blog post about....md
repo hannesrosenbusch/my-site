@@ -1,6 +1,4 @@
----
-Write a short blog post about...
----
+<h1> AI writing </h1>
 
 <i> Can you write a ~300 word blog post about how people are slightly too excited about large language models? </i>
 
