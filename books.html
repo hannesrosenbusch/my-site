@@ -34,19 +34,14 @@
         .book {
             flex: 1;
             padding: 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
             text-align: center;
-            background-color: rgba(64, 64, 64, 0.85);
             color: white;
             cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+            transition: transform 0.2s;
         }
         
         .book:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-            border-color: rgba(255, 255, 255, 0.4);
         }
         
         .book img {
@@ -132,6 +127,17 @@
                 flex-direction: column;
             }
         }
+        
+        .books-intro {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: rgba(64, 64, 64, 0.85);
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            font-size: 1.1rem;
+        }
     </style>
 </head>
 <body>
@@ -139,6 +145,10 @@
         <a href="index.html">← Back</a>
     </nav>
     
+    <div class="books-intro">
+        All my stories revolve around academic obsession, parapsychological phenomena, and peculiar characters.<br>Despite the dark themes (content warnings: death, suicide, drugs), many scenes turned out surprisingly humorous.<br>The books can be read in any order, although some characters appear in multiple stories.
+    </div>
+
     <div class="books-container">
         <div class="book" onclick="location.href='book1.html'">
             <img src="assets/images/tempcover.png" alt="Book 1 Cover">
