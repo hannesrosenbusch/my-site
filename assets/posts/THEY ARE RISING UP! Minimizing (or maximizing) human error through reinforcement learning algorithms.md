@@ -21,7 +21,7 @@ In the next plot, we can also see that, over time, the model is increasingly abl
 
 All in all, I think that smart models are ready to "stop playing games" and become more prevalent in supervising (and protecting) human operators, who are unwilling to be replaced alltogether.
 
-If you are interested, please check out the full text here: [Tutorial](https://osf.io/bg4e7/){:target="_blank"}
+If you are interested, please check out the full text here: [Tutorial](https://osf.io/bg4e7/)
 
 
 Ref:

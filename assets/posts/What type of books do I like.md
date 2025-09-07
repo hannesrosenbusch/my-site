@@ -27,4 +27,4 @@ I got some interesting nudges from this analysis (my enjoyment correlates .29 wi
 
 It appears like the annotation-based recommendation system works reasonably well, gets better as I continue reading, and definitely beats the baseline heuristics of ranking books based on average review scores or genres.
 
-If you are interested in the full paper (co-authored by Erdem O. Meral), please check it out [here.](https://arxiv.org/abs/2503.03300){:target="_blank"} 
+If you are interested in the full paper (co-authored by Erdem O. Meral), please check it out [here.](https://arxiv.org/abs/2503.03300)

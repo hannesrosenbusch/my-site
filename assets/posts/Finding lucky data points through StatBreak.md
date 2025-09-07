@@ -10,4 +10,4 @@ Given the computational challenges of finding specific data subsets (there are m
 
 So the tool turned out as an R package called StatBreak that gives users a simple function/interface to input their data and analyses. In response, the function returns which and how many observations were crucial for the user's original conclusion.
 
-If you are interested in the details, please read the postprint here: [Open access publication in AMPPS](https://osf.io/fmnxp/){:target="_blank"}
+If you are interested in the details, please read the postprint here: [Open access publication in AMPPS](https://osf.io/fmnxp/)

@@ -25,4 +25,4 @@ We ran an additional analysis, checking whether people at least describe similar
 <i>The X axis shows various topics that were brought up in book reviews. The Y axis shows how much more likely it is that a review mentions this topic if it was mentioned in a reference review (i.e., 
 Probability(Topic | mentioned in reference) / Probability(Topic | not mentioned in reference). For instance, the black triangular point on the left indicates that a review is twice as likely to mention that the reviewer felt addicted to the book, if the same reviewer made that claim about a different (randomly chosen) book. The gray circle below the triangle indicates that a review is about 1.5 times more likely to contain ‘feeling addicted’ if another (randomly chosen) reviewer made that statement about the same book.</i>
 
-If you are interested in the full paper, check it out [here.](https://arxiv.org/abs/2503.02671){:target="_blank"} 
+If you are interested in the full paper, check it out [here.](https://arxiv.org/abs/2503.02671)

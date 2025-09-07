@@ -12,4 +12,4 @@ Accordingly, computer vision models can repredict human inferences only medium w
 
 In this research, we also provide a dataset of 5000 annotated clothing images and point out interesting associations between clothing characteristics and psychological inferences (e.g., extreme effects of wearing silver).
 
-If you are interested in the details, please read the postprint here: [Publication in Journal of Computational Social Science](https://osf.io/scjaf/){:target="_blank"}
+If you are interested in the details, please read the postprint here: [Publication in Journal of Computational Social Science](https://osf.io/scjaf/)

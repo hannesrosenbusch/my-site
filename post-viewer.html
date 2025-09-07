@@ -148,10 +148,7 @@
                 }
                 const markdown = await response.text();
                 
-                // Clean up Jekyll-style target="_blank" syntax
-                const cleanedMarkdown = markdown.replace(/\{\:target="_blank"\}/g, '');
-                
-                const html = marked.parse(cleanedMarkdown);
+                const html = marked.parse(markdown);
                 
                 // Post-process HTML to add target="_blank" to external links
                 const tempDiv = document.createElement('div');

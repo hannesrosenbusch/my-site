@@ -3,7 +3,7 @@ New course - Intro to programming
 ---
 
 Michael Nunez and I recently finished the first iteration of our course "Introduction to programming", in which behavioral science students (mostly from psychology) get their hands dirty with R and Python.
-It was by far the most work and fun I had teaching. You can watch all the lectures online and check out the weekly programming challenges (cf., [course repository](https://github.com/mdnunez/PIPS_course){:target="_blank"}).
+It was by far the most work and fun I had teaching. You can watch all the lectures online and check out the weekly programming challenges (cf., [course repository](https://github.com/mdnunez/PIPS_course)).
 
 Besides last year's "Deep learning in Python course", this was the first programming-focused course I have taught and I really see a lot of opportunities to do these courses especially well and especially poorly. 
 

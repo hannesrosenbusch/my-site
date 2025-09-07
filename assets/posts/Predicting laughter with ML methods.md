@@ -19,4 +19,4 @@ The plot below shows a breakdown of the other psychological constructs which, de
 
 <img src="assets/blog_images/ml humor predictions.png">
 
-If you're interested in the full paper, click [here.](https://www.nature.com/articles/s41598-023-45935-1){:target="_blank"}
+If you're interested in the full paper, click [here.](https://www.nature.com/articles/s41598-023-45935-1)

@@ -12,4 +12,4 @@ While causal connections cannot be claimed on the basis of the obtained data, I 
 
 
 
-If you are interested in the details, please read the postprint here: [Open access publication in European Journal of Personality](https://osf.io/r69xj/){:target="_blank"}
+If you are interested in the details, please read the postprint here: [Open access publication in European Journal of Personality](https://osf.io/r69xj/)

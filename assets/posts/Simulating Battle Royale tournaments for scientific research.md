@@ -13,4 +13,4 @@ These agent-based simulations were set up through Netlogo code (see picture for 
 Results indicate that, in line with public belief, the Battle Royale mode introduces much randomness to player rankings compared to other tournament modes. Further, game features can make small improvements to the ranking reliability (or damage the reliability), whereas tournament features (averaging outcomes of multiple Battle Royale "rounds") can make large improvements to ranking reliability.
 
 
-If you are interested in the details, please read the postprint here: [Open access publication in Simulation & Gaming](https://osf.io/enz6g/){:target="_blank"}
+If you are interested in the details, please read the postprint here: [Open access publication in Simulation & Gaming](https://osf.io/enz6g/)
