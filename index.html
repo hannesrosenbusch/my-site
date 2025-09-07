@@ -9,7 +9,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('assets/images/bg no text.png');
+            background-image: url('assets/images/bg.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -53,6 +53,17 @@
         
         .nav-button:hover {
             background: rgba(0, 0, 0, 0.9);
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                background-image: url('assets/images/bg no text.png');
+            }
+            
+            .button-container {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
         }
     </style>
 </head>
