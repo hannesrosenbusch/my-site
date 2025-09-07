@@ -1,5 +1,5 @@
 ---
-"My first short story 'Wedding Crashers: Season 1'"
+Short story from a writing workshop
 ---
 
 <b>Wedding Crashers: Season 1</b>

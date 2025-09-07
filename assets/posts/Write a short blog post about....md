@@ -1,5 +1,5 @@
 ---
-"Write a short blog post about... "
+Write a short blog post about...
 ---
 
 <i> Can you write a ~300 word blog post about how people are slightly too excited about large language models? </i>

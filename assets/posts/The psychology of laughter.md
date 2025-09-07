@@ -1,5 +1,5 @@
 ---
-"Why do people laugh?"
+Why do people laugh?
 ---
 
 <b> Translational abstract:</b>

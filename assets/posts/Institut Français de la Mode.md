@@ -1,5 +1,5 @@
 ---
-"AI at the intersection of Fashion and Psychology"
+AI at the intersection of Fashion and Psychology
 ---
 
 I gave a short talk about the predictability of personality from clothes.

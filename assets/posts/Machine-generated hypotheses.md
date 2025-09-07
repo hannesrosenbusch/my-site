@@ -1,5 +1,5 @@
 ---
-"Machine-generated hypotheses"
+Machine-generated hypotheses
 ---
 
 We did some fun experiments by automating hypothesis pre-registrations for empirical studies about US-American politics. Specifically, we fine-tuned models to predict how different attitudes are going to correlate in the US public. The models performed quite well when comparing their hypotheses to the actual attitude corrlations (see image below). 

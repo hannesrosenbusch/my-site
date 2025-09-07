@@ -1,5 +1,5 @@
 ---
-"Research application: NY Times sentiment analyzer"
+NY Times sentiment analyzer
 ---
 
 Even though this project was a while ago, it marks my first encounter with computational social science, and therefore I still like it. The project showed me how fun computational methods are, and ultimately led me to reject my PhD grant and seek a position involving computational methods.

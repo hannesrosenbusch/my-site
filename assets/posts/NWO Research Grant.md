@@ -1,5 +1,5 @@
 ---
-"NWO Research Talent Grant"
+NWO Research Talent Grant
 ---
 
 We received this grant for a research proposal focusing on motivations and mechanisms contributing to radical group behavior (e.g., violence, destruction of property). 

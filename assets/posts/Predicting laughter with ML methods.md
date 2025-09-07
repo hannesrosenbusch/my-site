@@ -1,5 +1,5 @@
 ---
-"How well can psychological science predict laughter?"
+How well can psychological science predict laughter?
 ---
 
 Since ancient times, scientists and philosophers have amassed theories about when and why someone laughs. What makes one joke funnier than the other? Is humor mostly in the eye of the beholder or are certain jokes objectively better?

@@ -1,5 +1,5 @@
 ---
-"Ideological divisions and regional hostility on Twitter"
+Ideological divisions and regional hostility on Twitter
 ---
 
 That the USA struggles with ideological polarization, especially regarding the issue of minority treatment, is well-known.

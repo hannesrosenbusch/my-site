@@ -1,5 +1,5 @@
 ---
-"Tools!"
+Tools!
 ---
 My new employer conducts market research worldwide. Business clients approaching the company occasionally asked for specific methods and market insights, which were unfortunately not offered at that point. Thus, I started devising a set of new analytical tools for our team of consultants to simplify and standardize the implementation of these methods. These tools now implement TURF analyses, automatic freetext analyses, and conjoint analyses and are available in various formats (shiny apps, google colab notebooks, and dashboards on the company website). It was very fun and educative to implement these projects at the intersection of the data science, IT, and consulting teams.
 

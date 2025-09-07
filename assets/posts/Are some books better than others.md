@@ -1,5 +1,5 @@
 ---
-"Are some books better than others?"
+Are some books better than others?
 ---
 
 Debating whether a book is "good" or "bad" is a fun pastime, enjoyed by readers and academics alike.

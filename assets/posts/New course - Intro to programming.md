@@ -1,5 +1,5 @@
 ---
-"New course - Intro to programming"
+New course - Intro to programming
 ---
 
 Michael Nunez and I recently finished the first iteration of our course "Introduction to programming", in which behavioral science students (mostly from psychology) get their hands dirty with R and Python.

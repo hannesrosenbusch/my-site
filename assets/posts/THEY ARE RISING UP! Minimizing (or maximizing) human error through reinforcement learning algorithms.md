@@ -1,5 +1,5 @@
 ---
-"THEY ARE RISING UP! Minimizing (or maximizing) human error through reinforcement learning algorithms"
+THEY ARE RISING UP! Minimizing (or maximizing) human error through reinforcement learning algorithms
 ---
 
 Reinforcement learning algorithms are fascinating. They are smarter than models from the more popular branches of machine learning, because they do not necessarily need humans to input training data. They learn by themselves (or at least more autonomously). In order to do so, they have to be able to interact with their environment in a trial-and-error fashion. Take the famous AlphaGo Zero model (Silver et al., 2017). No one told it what good moves in the game are. No one even showed it data from past games. It has become better than any human will ever be, simply by playing, losing, and learning. 

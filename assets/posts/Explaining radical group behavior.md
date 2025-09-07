@@ -1,5 +1,5 @@
 ---
-"Master thesis: Explaining radical group behavior"
+Master thesis on radical group behavior
 ---
 
 This was my master's thesis titled 'Testing the transferability of collective action theories to radical action'. 

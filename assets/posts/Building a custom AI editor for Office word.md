@@ -1,5 +1,5 @@
 ---
-"My first Microsoft Office add-in"
+My first Microsoft Office add-in
 ---
 
 I found myself copy-pasting between Office Word and web-based AI tools a lot.

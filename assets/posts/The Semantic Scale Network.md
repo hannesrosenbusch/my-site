@@ -1,5 +1,5 @@
 ---
-"The Semantic Scale Network"
+The Semantic Scale Network
 ---
 
 

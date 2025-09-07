@@ -1,5 +1,5 @@
 ---
-"Emotion contagion and homophily on YouTube"
+Emotion contagion and homophily on YouTube
 ---
 
 In this project we analyze over 2,000 YouTube vlogs and use multilevel analyses to distinguish immediate and sustained emotion transfers from vloggers to their audiences.

@@ -1,5 +1,5 @@
 ---
-"Netlogo application: Chuck Norris vs the world"
+Chuck Norris vs the world (in Netlogo)
 ---
 
 Battle Royale is an exciting tournament mode. Everybody enters the arena. Only the winner leaves. It is very dramatic, chaotic, and easily as popular today as it was in ancient Rome (cf., Fortnite, Gladiator fights).

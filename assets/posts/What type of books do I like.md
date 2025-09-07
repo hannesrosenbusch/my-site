@@ -1,10 +1,10 @@
 ---
-"What books do I like?"
+What books do I like?
 ---
 
 Despite keeping track of my own book ratings and writing short reviews for every book that I read (including DNFs), I find it difficult to pinpoint my own literary preferences.
 
-Like many readers, I don't thinkt that I have a preferred niche, which would make the process of finding enjoyable reads much easier.
+Like many readers, I don't thinkt that I have a specific niche, which would make the process of finding enjoyable reads much easier.
 
 With about a hundred book ratings in my spreadsheet, I started to look for statistical patterns. Specifically, I built an AI-enhanced pipeline to discover regularities in my reading enjoyment.
 <br>

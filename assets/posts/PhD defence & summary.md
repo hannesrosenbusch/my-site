@@ -1,5 +1,5 @@
 ---
-"PhD defence"
+PhD defence
 ---
 
 Defending my thesis was a very enjoyable experience and I am very grateful to my supervisors, the committee, and all the people that followed along.
